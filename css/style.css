@@ -1,0 +1,111 @@
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+
+h2{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+h3{
+
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+body{
+  font-family: "Montserrat";
+}
+
+/* DOWNLOAD  */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.icon{
+
+  color: #eF8172;
+background-color: #fff;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+
+/* FOOTER  */
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+
+
+#title{
+ background-color: #eF8172;
+  color: #fff;
+}
+
+/* FEATURE BOX */
+
+#features{
+
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/* TESTEMONIALS SECTION */
+
+#testimonial{
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-image{
+  width :18%;
+border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+
+
+
+/* PRICING  */
+#pricing{
+  padding: 50px;
+  text-align: center;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width:1028px)
+{
+
+  #title{
+    text-align: center;
+  }
+
+.title-image{
+  position: static;
+  transform: rotate(0);
+}
+}
